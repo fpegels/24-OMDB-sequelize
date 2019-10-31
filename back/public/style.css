@@ -1,0 +1,152 @@
+@import "normalize.css"; 
+
+
+a:hover{
+    cursor: pointer;
+}
+button{
+    margin-left:10px;
+    margin-right:10px;
+    outline: none !important;
+}
+li{
+    list-style-type: none;
+}
+
+.btn-outline-secondary{
+    margin-left: 0px;
+}
+
+.button-container{
+    display:inline-block;
+}
+
+.carousel-caption{
+    top: 1%;
+    left: 80%;
+}
+.display{
+    width: 30%;
+    margin:10px auto auto auto;
+}
+.fa{
+    font-size:20px;
+}
+.fa-heart{
+    padding: 5px;
+    background-color: grey;
+    opacity:0.6;
+}
+.fa-heart:hover{
+    font-size:25px;
+}
+.list-group-item{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    max-height: 38px;
+    margin-right: 4px;
+}
+.navbar{
+    padding-bottom: 0px;
+}
+.nav-item{
+    padding: 0px;
+}
+.radio{
+    display: flex;
+}
+.modalA{
+    color:blue;
+}
+.singleDisplay{
+    margin-left: 5%;
+    margin-right:auto;
+    margin-top: 5%;
+    display:flex;  
+}
+.success{
+    max-width: 20%;
+    margin-left: 10vw;
+}
+.styless{
+    background: transparent;
+    margin: 0px;
+    border: none;
+    color: green;
+}
+
+.eliminate{
+    background: transparent;
+    margin: 0px;
+    border: none;
+    color:red;
+}
+
+.table{
+    margin-bottom:0px;
+    max-width: 800px;
+}
+.userInter{
+    width:40%;
+    text-align: right;
+    padding:0px;
+}
+
+.userForm{
+    text-align: center;
+}
+
+.userList{
+    margin-top:20px;
+}
+#warning-login{
+    color: red;
+}
+
+#warning-register{
+    color: red;
+}
+
+@media (max-width: 1135px) {
+    .radio{
+        display:none;
+    }
+  }
+
+@media (max-width:560px){
+    .display{
+        width: 100%;
+    }
+
+    .singleDisplay{
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .userInter{
+        text-align: center;
+    }
+    .btn-info{
+        background-color: #f8f9fa;
+        color: black;
+        font-size: 0.9em;
+        border: none;
+        font-weight: bold;
+    }
+    .btn-info:hover{
+        background-color: #f8f9fa;
+        color: black;
+        font-size: 0.9em;
+        border: 1px solid black;
+        font-weight: bold;
+    }
+    .col-lg-3{
+        margin-top: 3px;
+        width: 100%;
+
+    }
+}
